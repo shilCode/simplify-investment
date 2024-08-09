@@ -1,0 +1,30 @@
+form {
+  color: white;
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+}
+input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font: bold;
+  text-transform: uppercase;
+}
