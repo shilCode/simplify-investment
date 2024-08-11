@@ -1,0 +1,7 @@
+form {
+  color: white;
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  display: flex;
+}
