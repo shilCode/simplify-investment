@@ -1,32 +1,32 @@
 <form (ngSubmit)="onSumbit()">
   <div class="input-group">
-    <label for="initial-Investment">Intial Investment</label>
+    <label for="initial-Investment">Initial</label>
     <input
       type="initial-Investment"
       id="initialInvestment"
       name="initial-Investment"
       [(ngModel)]="enterInitialInvesment"
     />
-    <label for="Annual-Investment">Annual Investment</label>
+    <label for="Annual-Investment">Annual</label>
     <input
       type="annual-Investment"
       id="annual-Investment"
       name="annual-Investment"
-      [(ngModel)]="enterDurationInvestment"
+      [(ngModel)]="enterAnnualInvestment"
     />
-    <label for="expected-Investment">Expected Investment</label>
+    <label for="expected-Investment">Expected </label>
     <input
       type="expected-Investment"
       id="expected-Investment"
       name="expected-Investment"
       [(ngModel)]="enterExpectedInvestment"
     />
-    <label for="duration-Investment">Duration Investment</label>
+    <label for="duration-Investment">Duration</label>
     <input
       type="duration-Investment"
       id="duration-Investment"
       name="duration-Investment"
-      [(ngModel)]="enterAnnualInvestment"
+      [(ngModel)]="enterDurationInvestment"
     />
   </div>
   <button>Calculate</button>
