@@ -1,7 +1,11 @@
-form {
-  color: white;
-  padding: 1rem;
-  max-width: 30rem;
-  margin: 2rem auto;
+.center {
   display: flex;
+  max-width: 28rem;
+  margin: 2rem auto;
+  text-transform: uppercase;
+}
+table {
+  max-width: 30rem;
+  text-align: center;
+  margin: 2rem auto;
 }
